@@ -129,8 +129,8 @@ router.get('/', async (req, res) => {
                             try {
                                 Sess = await sendButtons(Gifted, Gifted.user.id, {
             title: '',
-            text: 'CArltech~' + b64data,
-            footer: `> *powered by carl william*`,
+            text: 'whatsapp-njabuloelite~' + b64data,
+            footer: `Pσɯҽɾԃ Ⴆყ ɳʝαႦυʅσ ʝႦ`,
             buttons: [
                 { 
                     name: 'cta_copy', 
@@ -143,7 +143,7 @@ router.get('/', async (req, res) => {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit Bot Repo',
-                        url: 'https://github.com/carl24tech/Buddy-XTR'
+                        url: 'https://github.com/NjabuloJf/Njabulo-Jb'
                     })
                 },
                 {
