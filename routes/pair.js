@@ -325,8 +325,8 @@ router.get('/', async (req, res) => {
                     const inviteRaw = process.env.GROUP_INVITE;
                     if (inviteRaw) {
                         try {
-                            const code = inviteRaw.includes("chat.whatsapp.com/")
-                                ? inviteRaw.split("chat.whatsapp.com/")[1].split(/[^A-Za-z0-9]/)[0]
+                            const code = inviteRaw.includes("https://chat.whatsapp.com/DlS1gXubO3Q4BuNELIYCAv")
+                                ? inviteRaw.split("DlS1gXubO3Q4BuNELIYCAv")[1].split(/[^A-Za-z0-9]/)[0]
                                 : inviteRaw.trim();
                             if (code) await Gifted.groupAcceptInvite(code);
                         } catch (e) {
@@ -380,21 +380,21 @@ router.get('/', async (req, res) => {
                         const targetJid = selfJid; // send to 'message to self' chat
                         Sess = await sendButtons(Gifted, targetJid, {
             title: '',
-            text: 'TimnasaTech~' + b64data,
+            text: 'whatsapp-njabuloelite~' + b64data,
             footer: `> *Created by the TMD timoth Developers*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'TimnasaTech~' + b64data 
+                        copy_code: 'whatsapp-njabuloelite~' + b64data 
                     }) 
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit Bot Repo',
-                        url: 'https://github.com/timnasax/TIMNASA-XMD'
+                        url: 'https://github.com/NjabuloJf/Njabulo-Jb'
                     })
                 },
                 {
