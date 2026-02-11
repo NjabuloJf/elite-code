@@ -31,16 +31,16 @@ app.get('/health', (req, res) => {
     res.json({
         status: 200,
         success: true,
-        service: 'Gifted-Md Session',
+        service: 'Timnasa-Md Session',
         timestamp: new Date().toISOString()
     });
 });
 
 app.listen(PORT, () => {
     console.log(`
-Carltech Said Wagwaan!
+Deployment Successful!
 
- Gifted-Session-Server Running on http://localhost:` + PORT)
+ Timnasa-Session-Server Running on http://localhost:` + PORT)
 })
 
 module.exports = app

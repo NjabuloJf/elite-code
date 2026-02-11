@@ -1,9 +1,9 @@
 {
-    "name": "Carltech Session Generator",
+    "name": "Timnasa Session Generator",
     "description": "Web Session Generator",
-    "logo": "https://files.catbox.moe/.jpg",
+    "logo": "https://files.catbox.moe/jmyv02.jpg",
     "repository": "https://github.com/mauricegift/gifted-sess",
-    "keywords": ["Buddy-XTR"],
+    "keywords": ["Gifted-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
@@ -13,5 +13,6 @@
         "required": false 
       }
     }   
+
 
 }
